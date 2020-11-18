@@ -24,8 +24,7 @@
   border: 1px solid black;
 }
 
-.row.nested>div.col-6 div {
-  height: 100%;
+.row.nested div.col-6 div {
   padding: 5px;
   background-color: orange;
   border: 1px solid white;
