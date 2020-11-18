@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/sfondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container{
+  max-width: 1270px;
+  margin: 100px auto 0;
+}
+
+[class*="col-"] {
+  border: 0;
+}
+
+img {
+  height: 50%;
+}
+
+img:hover {
+  transform: scale(1.7);
+  transition: 1s;
+  background-color: #2b592a;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+  padding: 5px;
+}
+
+.logo:hover{
+  transform: none;
+  background-color: rgba(111, 241, 131, 0);
+}
+
+.second [class*="col-"] {
+  height: 100px;
+}
+
+.second [class*="col-"] img{
+  height: 100%;
+}
+
+@media screen and (max-width:500px) {
+
+  body{
+    background-position: right;
+  }
+
+  .col-1{
+    width: 50%;
+  }
+
+  .col-3{
+    width: 100%;
+  }
+}
